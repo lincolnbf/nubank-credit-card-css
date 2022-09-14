@@ -1,0 +1,158 @@
+span {
+    font-family: Roboto;
+    color: white
+}
+
+.front, .back {
+    margin: 10px;
+    border: 1px solid black;
+    width: 452px;
+    height: 293px;
+    border-radius: 10px;
+    background: rgb(156,68,220);
+    background: linear-gradient(90deg, rgba(156,68,220,1) 0%, rgba(68,44,97,1) 52%);
+    display: flex;
+    flex-direction: column;
+}
+
+.card-holder-name {
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+.divider {
+    margin: 10px;
+}
+
+.front .top {
+    display: flex;
+    margin-top: 20px;
+    justify-content: flex-end;
+}
+
+.front .center {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.front .bottom {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.front .bottom span {
+    margin-left: 50px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* BACK CARD SECTION */
+
+.back .very-top {
+    margin: 5px;
+    display: flex;
+    color: white;
+    font-size: 9px;
+    justify-content: space-between;
+}
+
+.back .top {
+    display: flex;
+    height: 100px;
+    background: rgb(101,101,101);
+    background: linear-gradient(90deg, rgba(101,101,101,1) 0%, rgba(167,167,167,1) 100%);
+}
+
+.back .center {
+    height: 200px;
+    display: flex;
+    margin: 8px;
+    gap: 5px;
+}
+
+.silver-icon {
+    height: 50px;
+    width: 80px;
+    border-radius: 80px;
+    background: rgb(101,101,101);
+    background: linear-gradient(90deg, rgba(101,101,101,1) 0%, rgba(167,167,167,1) 100%);
+}
+
+.back-center-col-1 {
+    font-size: 24px;
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1;
+}
+
+.back-center-col-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    flex: 1;
+}
+
+.back-center-col-3 {
+    display: flex;
+    flex: 1;
+    margin-top: 14px;
+}
+
+
+.contact-nubank-line {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contact-nubank-line p {
+    margin-left: 2px;
+    font-size: 9px;
+}
+
+.back .bottom {
+    margin: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.back .bottom {
+    display: flex;
+    align-items: flex-end;
+}
+
+.back .bottom .line2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-number {
+    margin-left: 8px;
+    margin-bottom: 1px;
+    font-size: 20px;
+    letter-spacing: 0.8px;
+}
+
+.card-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pack {
+    margin: 4px;
+}
+
+p {
+    color: lightgray;
+    font-family: Roboto;
+    font-size: 6px;
+}
+
+

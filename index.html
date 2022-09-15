@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Credit Card</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/reset.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,170 +15,177 @@
     />
   </head>
   <body>
-    <div class="front">
-      <div class="top">
-        <div class="mastercard-logo">
-          <img src="mastercard.png" height="60px" />
-        </div>
-      </div>
-      <div class="center">
-        <img style="filter: grayscale(1)" src="chip.png" width="70px" alt="" />
-        <svg
-          style="transform: rotate(90deg)"
-          xmlns="http://www.w3.org/2000/svg"
-          class="icon icon-tabler icon-tabler-wifi"
-          width="30"
-          height="30"
-          viewBox="0 0 24 24"
-          stroke-width="1.5"
-          stroke="white"
-          fill="none"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        >
-          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-          <line x1="12" y1="18" x2="12.01" y2="18" />
-          <path d="M9.172 15.172a4 4 0 0 1 5.656 0" />
-          <path d="M6.343 12.343a8 8 0 0 1 11.314 0" />
-          <path d="M3.515 9.515c4.686 -4.687 12.284 -4.687 17 0" />
-        </svg>
-      </div>
-      <div class="bottom">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 88 70"
-          fill="none"
-          width="100"
-        >
-          <g id="logonu-white">
-            <path
-              id="logonu-letter-u"
-              d="M78.6686 46.9969V19.7357C78.6686 18.4084 77.9513 18 76.9264 18H71.1871C69.9572 18 69.4448 18.4084 69.4448 19.7357V57.922C69.4448 58.8409 67.6128 62.1791 62.4756 61.802C52.7393 61.0873 47 54.3433 47 48.937V19.7357C47 18.6126 47.5125 18 48.7423 18H54.3791C55.609 18 56.1214 18.6126 56.1214 19.7357V46.6907C56.1214 49.7455 59.1535 53.0211 62.4756 53.0211H72.725C76.0046 53.0211 78.6686 49.2432 78.6686 46.9969Z"
-              stroke="#EDEAEF"
-              stroke-width="2.45216"
-            />
-            <path
-              id="logonu-letter-n"
-              d="M8 23.8346V51.0958C8 52.4232 8.71739 52.8316 9.74226 52.8316H15.4816C16.7114 52.8316 17.2238 52.4232 17.2239 51.0958V12.9095C17.2239 11.9906 19.0558 8.65246 24.193 9.02957C33.9293 9.74428 39.6686 16.4882 39.6686 21.8946V51.0958C39.6686 52.219 39.1562 52.8316 37.9263 52.8316H32.2895C31.0597 52.8316 30.5473 52.219 30.5473 51.0958V24.1408C30.5473 21.086 27.5151 17.8105 24.193 17.8105H13.9436C10.664 17.8105 7.99999 21.5884 8 23.8346Z"
-              stroke="#EDEAEF"
-              stroke-width="2.45216"
-            />
-          </g>
-        </svg>
-        <span class="card-holder-name">LINCOLN B FERREIRA</span>
-      </div>
-    </div>
-    <div class="divider"></div>
-    <div class="back">
-      <div class="very-top">
-        <span class="first"
-          >Issued by Nubank under license by Mastercard International.</span
-        >
-        <span class="second">GEMALTO CWB U1151258D 0547 ICA 16580</span>
-      </div>
-      <div class="top"></div>
-      <div class="center">
-        <div class="back-center-col-1">
-          <span class="gold">gold</span>
-          <div class="silver-icon"></div>
-        </div>
-        <div class="back-center-col-2">
-          <div class="contact-nubank-line">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="icon icon-tabler icon-tabler-message-circle"
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="#ffffff"
-              fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-              <path d="M3 20l1.3 -3.9a9 8 0 1 1 3.4 2.9l-4.7 1" />
-              <line x1="12" y1="12" x2="12" y2="12.01" />
-              <line x1="8" y1="12" x2="8" y2="12.01" />
-              <line x1="16" y1="12" x2="16" y2="12.01" />
-            </svg>
-            <div>
-              <p>Está com dúvida?</p>
-              <p>Nosso app pode te ajudar.</p>
-            </div>
-          </div>
-          <div class="contact-nubank-line">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="icon icon-tabler icon-tabler-help"
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="#ffffff"
-              fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-              <circle cx="12" cy="12" r="9" />
-              <line x1="12" y1="17" x2="12" y2="17.01" />
-              <path d="M12 13.5a1.5 1.5 0 0 1 1 -1.5a2.6 2.6 0 1 0 -3 -4" />
-            </svg>
-            <div>
-              <p>Fale com a gente.</p>
-              <p>0800 591 2117</p>
-            </div>
-          </div>
-          <div class="contact-nubank-line">
-            <div style="height: 20px; width: 20px"></div>
-            <div>
-              <p>Outside Brazil</p>
-              <p>1 636 722 7111</p>
-            </div>
+    <div class="container">
+      <div class="front">
+        <div class="top">
+          <div class="mastercard-logo">
+            <img src="assets/mastercard.png" height="60px" />
           </div>
         </div>
-        <div class="back-center-col-3">
-          <div class="contact-nubank-line">
-            <div>
-              <p>Ouvidoria:</p>
-              <p>ouvidoria@nubank.com.br</p>
-              <p>0800 887 0466</p>
-            </div>
-          </div>
+        <div class="center">
+          <img
+            style="filter: grayscale(1)"
+            src="assets/chip.png"
+            width="70px"
+            alt=""
+          />
+          <svg
+            style="transform: rotate(90deg)"
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-wifi"
+            width="30"
+            height="30"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="white"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <line x1="12" y1="18" x2="12.01" y2="18" />
+            <path d="M9.172 15.172a4 4 0 0 1 5.656 0" />
+            <path d="M6.343 12.343a8 8 0 0 1 11.314 0" />
+            <path d="M3.515 9.515c4.686 -4.687 12.284 -4.687 17 0" />
+          </svg>
+        </div>
+        <div class="bottom">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 88 70"
+            fill="none"
+            width="100"
+          >
+            <g id="logonu-white">
+              <path
+                id="logonu-letter-u"
+                d="M78.6686 46.9969V19.7357C78.6686 18.4084 77.9513 18 76.9264 18H71.1871C69.9572 18 69.4448 18.4084 69.4448 19.7357V57.922C69.4448 58.8409 67.6128 62.1791 62.4756 61.802C52.7393 61.0873 47 54.3433 47 48.937V19.7357C47 18.6126 47.5125 18 48.7423 18H54.3791C55.609 18 56.1214 18.6126 56.1214 19.7357V46.6907C56.1214 49.7455 59.1535 53.0211 62.4756 53.0211H72.725C76.0046 53.0211 78.6686 49.2432 78.6686 46.9969Z"
+                stroke="#EDEAEF"
+                stroke-width="2.45216"
+              />
+              <path
+                id="logonu-letter-n"
+                d="M8 23.8346V51.0958C8 52.4232 8.71739 52.8316 9.74226 52.8316H15.4816C16.7114 52.8316 17.2238 52.4232 17.2239 51.0958V12.9095C17.2239 11.9906 19.0558 8.65246 24.193 9.02957C33.9293 9.74428 39.6686 16.4882 39.6686 21.8946V51.0958C39.6686 52.219 39.1562 52.8316 37.9263 52.8316H32.2895C31.0597 52.8316 30.5473 52.219 30.5473 51.0958V24.1408C30.5473 21.086 27.5151 17.8105 24.193 17.8105H13.9436C10.664 17.8105 7.99999 21.5884 8 23.8346Z"
+                stroke="#EDEAEF"
+                stroke-width="2.45216"
+              />
+            </g>
+          </svg>
+          <span class="card-holder-name">LINCOLN B FERREIRA</span>
         </div>
       </div>
-      <div class="bottom">
-        <div class="col1">
-          <div class="card-number">
-            <span>4734 0085 4974 2979</span>
+      <div class="divider"></div>
+      <div class="back">
+        <div class="very-top">
+          <span class="first"
+            >Issued by Nubank under license by Mastercard International.</span
+          >
+          <span class="second">GEMALTO CWB U1151258D 0547 ICA 16580</span>
+        </div>
+        <div class="top"></div>
+        <div class="center">
+          <div class="back-center-col-1">
+            <span class="gold">gold</span>
+            <div class="silver-icon"></div>
           </div>
-          <div class="line2">
-            <div class="card-details-container">
-              <div class="pack">
-                <p>MEMBER</p>
-                <p>SINCE</p>
+          <div class="back-center-col-2">
+            <div class="contact-nubank-line">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-message-circle"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="#ffffff"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M3 20l1.3 -3.9a9 8 0 1 1 3.4 2.9l-4.7 1" />
+                <line x1="12" y1="12" x2="12" y2="12.01" />
+                <line x1="8" y1="12" x2="8" y2="12.01" />
+                <line x1="16" y1="12" x2="16" y2="12.01" />
+              </svg>
+              <div>
+                <p>Está com dúvida?</p>
+                <p>Nosso app pode te ajudar.</p>
               </div>
-              <span style="font-weight: bold">08/17</span>
             </div>
-            <div class="card-details-container">
-              <div class="pack">
-                <p>VALID</p>
-                <p>THRU</p>
+            <div class="contact-nubank-line">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-help"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="#ffffff"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <circle cx="12" cy="12" r="9" />
+                <line x1="12" y1="17" x2="12" y2="17.01" />
+                <path d="M12 13.5a1.5 1.5 0 0 1 1 -1.5a2.6 2.6 0 1 0 -3 -4" />
+              </svg>
+              <div>
+                <p>Fale com a gente.</p>
+                <p>0800 591 2117</p>
               </div>
-              <span style="font-weight: bold">08/24</span>
             </div>
-            <div class="card-details-container">
-              <div class="pack">
-                <p>SECURITY</p>
-                <p>CODE</p>
+            <div class="contact-nubank-line">
+              <div style="height: 20px; width: 20px"></div>
+              <div>
+                <p>Outside Brazil</p>
+                <p>1 636 722 7111</p>
               </div>
-              <span style="font-weight: bold">772</span>
+            </div>
+          </div>
+          <div class="back-center-col-3">
+            <div class="contact-nubank-line">
+              <div>
+                <p>Ouvidoria:</p>
+                <p>ouvidoria@nubank.com.br</p>
+                <p>0800 887 0466</p>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col2">
-          <img src="cirrus.png" height="60px" />
+        <div class="bottom">
+          <div class="col1">
+            <div class="card-number">
+              <span>4734 0085 4974 2979</span>
+            </div>
+            <div class="line2">
+              <div class="card-details-container">
+                <div class="pack">
+                  <p>MEMBER</p>
+                  <p>SINCE</p>
+                </div>
+                <span style="font-weight: bold">08/17</span>
+              </div>
+              <div class="card-details-container">
+                <div class="pack">
+                  <p>VALID</p>
+                  <p>THRU</p>
+                </div>
+                <span style="font-weight: bold">08/24</span>
+              </div>
+              <div class="card-details-container">
+                <div class="pack">
+                  <p>SECURITY</p>
+                  <p>CODE</p>
+                </div>
+                <span style="font-weight: bold">772</span>
+              </div>
+            </div>
+          </div>
+          <div class="col2">
+            <img src="assets/cirrus.png" height="60px" />
+          </div>
         </div>
       </div>
     </div>
